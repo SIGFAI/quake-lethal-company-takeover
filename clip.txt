@@ -1,0 +1,6 @@
+Moments the clip must show (ticked only when seen in the screenshots):
+[x] 1. The facility turns dark and foggy, the player has a flashlight, and the LETHAL COMPANY title appears.
+[x] 2. Hoarding Bugs and a Bracken charge in; the player's nailgun hurts them (blood, pain, death).
+[x] 3. Dead monsters pop out scrap (duck, bell, cash register) that flies to the player: +$ value and quota bar.
+[ ] 4. A Hoarding Bug grabs scrap from the floor; killing it drops the stolen scrap back (weak: hard to catch on camera).
+[x] 5. Quota met: the Company horn sounds and the player gets Quad Damage.

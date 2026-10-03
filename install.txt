@@ -1,0 +1,1 @@
+Copy this mod folder into your Quake folder next to id1 (LibreQuake or Quake data needed), then launch Quake with -game followed by the folder name. Kill monsters, grab the scrap, meet the quota.
