@@ -1,0 +1,273 @@
+{
+  "id": "sigf/quake-lethal-company-takeover",
+  "version": "1.0.0",
+  "name": "Lethal Company Takeover",
+  "tagline": "Bring Lethal Company into the game in the most visible and funny way. The change shows in the first 30 seconds of play.",
+  "kind": "mashup",
+  "games": [
+    {
+      "game": "quake",
+      "role": "host",
+      "engine": "Ironwail 0.8.2 + LibreQuake 0.09 data, QuakeC 1.06 compiled with FTEQCC"
+    },
+    {
+      "game": "lethal",
+      "role": "guest",
+      "label": "Lethal Company"
+    }
+  ],
+  "requires": [],
+  "install": [
+    {
+      "game": "quake",
+      "strategy": "args",
+      "files": [
+        {
+          "src": "quake-lethal-company-takeover.zip",
+          "dst": "{game}/sigf_lethal_company_takeover",
+          "unpack": true,
+          "contents": [
+            {
+              "path": "progs/sigf_bracken.mdl",
+              "sha256": "91565b40a1b30d4ce1825336b3306b0efdd893eefdf9132c38b15a48a0e199c0"
+            },
+            {
+              "path": "progs/sigf_bug.mdl",
+              "sha256": "756d83adc114a2cb734bc4076687c20d743103158abb8292ec3a91ce99f6c77d"
+            },
+            {
+              "path": "progs/sigf_scrap.spr",
+              "sha256": "d85b1e8cab7212855a98eaebb54961b4a37cddb34b02a63d94f11d2d75dd9174"
+            },
+            {
+              "path": "progs.dat",
+              "sha256": "a30c29f0c1ee28086df7550c9559fff8a939da2ae61be1e5882f979b4f88e438"
+            },
+            {
+              "path": "sound/sigf/cash.wav",
+              "sha256": "894e04b2f3fc6e237b55fd3665d565ca4ba000cb9282cbc3088bf942dd5d3fd9"
+            },
+            {
+              "path": "sound/sigf/chitter.wav",
+              "sha256": "0746445d038fab6f489299da42fde42055243c10cd3cfadec2eb78d3b7bc46ab"
+            },
+            {
+              "path": "sound/sigf/growl.wav",
+              "sha256": "6e365a89f0deac6bb7b54333fac4ee3760aa519b4161552fce28d5bac5ac790b"
+            },
+            {
+              "path": "sound/sigf/horn.wav",
+              "sha256": "ae5779acf9aedbf7fe23464aae4059dd9b281ff4f5af838641ceb5b4c0aa7170"
+            },
+            {
+              "path": "sound/sigf/hurt.wav",
+              "sha256": "73b7cee3b504be64a078eebebe0dba37e5e2c65e4c6cb87b4c16694cd8e96131"
+            },
+            {
+              "path": "src/ai.qc",
+              "sha256": "6757297dd2212f18749e2c1326a72142a96caa85f273e5394bbea39825143500"
+            },
+            {
+              "path": "src/amtest.qc",
+              "sha256": "e003f597a4e9198d76dd110f926bc22e0a47de91d05208d1ac958defc10ba887"
+            },
+            {
+              "path": "src/boss.qc",
+              "sha256": "3a2006fe44299eb616195f87f542bd399c386faabbb77f74c9ffd7a7308d9c5a"
+            },
+            {
+              "path": "src/buttons.qc",
+              "sha256": "90a34e5efec90d791f2071daa0b70367659e7bec3344af960887baf357584150"
+            },
+            {
+              "path": "src/client.qc",
+              "sha256": "e319479c3f9a2b8c189be6885a9f99cf53142e6f73ed334267558eb87c088941"
+            },
+            {
+              "path": "src/combat.qc",
+              "sha256": "e3da243ee231546b1d1ef97a16feef1728ac5ba9d60bedbd26ffc7f0b51aef7a"
+            },
+            {
+              "path": "src/COPYING",
+              "sha256": "189b1af95d661151e054cea10c91b3d754e4de4d3fecfb074c1fb29476f7167b"
+            },
+            {
+              "path": "src/defs.qc",
+              "sha256": "51bdbd4b7f56ccff5bd759c31a3fdd116814d498b54cb357b3c682affb652039"
+            },
+            {
+              "path": "src/demon.qc",
+              "sha256": "af55ac8b525952c5d5bcc374b7fef93d033d6eac310777988644b7b2d39dc065"
+            },
+            {
+              "path": "src/dog.qc",
+              "sha256": "ae058da38bd210a9d3a3ae73345b015313dc46a6d8c158ddac687c0baa184a02"
+            },
+            {
+              "path": "src/doors.qc",
+              "sha256": "084d8022bf764a0450bae480935ee4d714b93dbc6397b4dbe3227ba862855385"
+            },
+            {
+              "path": "src/enforcer.qc",
+              "sha256": "45a252cd6569bf614198744cf8e414a4b2ba85a9814c045f2d9f64aaea270b87"
+            },
+            {
+              "path": "src/fight.qc",
+              "sha256": "0771406e85468d030055875e811dd459ee56ae14abe6c6d46ce7c8a334378ea6"
+            },
+            {
+              "path": "src/fish.qc",
+              "sha256": "6cdecd6b38b86950c1fda6a5f95b9bacf783af396119c6b03efc4019d6663ef6"
+            },
+            {
+              "path": "src/flag.qc",
+              "sha256": "2825013714da3f995f48914a10d4203d60587a6daf391e59c71f1b528781dbe0"
+            },
+            {
+              "path": "src/hknight.qc",
+              "sha256": "908977352c55db31af5d217945a28619b102efc77aae9825cb9775623715178e"
+            },
+            {
+              "path": "src/items.qc",
+              "sha256": "501f3297b7228f1826a32142d207919d76cdab20caa9552972efbb207f839542"
+            },
+            {
+              "path": "src/jctest.qc",
+              "sha256": "fe899bdac94c6cd7084483742e62ab89aa5a920491bb2fb3c1298914789705f8"
+            },
+            {
+              "path": "src/knight.qc",
+              "sha256": "a40566bf59195b52f2a86017508c6e288803af1838b1ff86f8d3eaf2a8e63191"
+            },
+            {
+              "path": "src/misc.qc",
+              "sha256": "7c24ef2b46b3aee0ea18278e2d7171500a6647ae63f15b86ce5dd18da13c2b24"
+            },
+            {
+              "path": "src/models.qc",
+              "sha256": "07a434e04ce35997985535123d4aa04982767b6b4814d5978c3f5cdd86af9902"
+            },
+            {
+              "path": "src/monsters.qc",
+              "sha256": "00430a3cb37e33ddf54dd550980a9e5210e36c4087f6692ee6f1464a24e6bcde"
+            },
+            {
+              "path": "src/ogre.qc",
+              "sha256": "c20ef19a3457e01aa888148c2b8e688e8ab3a52d6635e902c28016d5f98b8efc"
+            },
+            {
+              "path": "src/oldone.qc",
+              "sha256": "e1745c3bd55188eed87b9a2d8f6ace55a2c6a0dc930c9a16fb20ca593e405eff"
+            },
+            {
+              "path": "src/plats.qc",
+              "sha256": "8ecfbd89222f88fe46a0a438036cc4f979a07b79d417d3c25636edca043e75c6"
+            },
+            {
+              "path": "src/player.qc",
+              "sha256": "0bbc7b810b827218b52fd6ae3ae018b8a3a44ee522a602de51a4bcd1c0e692a4"
+            },
+            {
+              "path": "src/progs.src",
+              "sha256": "ed4aeeb3d29adbe14c765ca55e631b4e6a0f9ad903f96f77a1d2ef85f57c5e89"
+            },
+            {
+              "path": "src/shalrath.qc",
+              "sha256": "e8a05f65720058fb54199d621cce64f07f92b71fa2c49a28fe239bbf8cb05f93"
+            },
+            {
+              "path": "src/shambler.qc",
+              "sha256": "d68c249284191a36690599c6ef874481eb85a6c24095d165318be9d8e41027ef"
+            },
+            {
+              "path": "src/sigf_base.qc",
+              "sha256": "c7cc9d0461f948878046e5d2354861ef1af9c8c2866c292bbd3cc1c260eb9f84"
+            },
+            {
+              "path": "src/sigf_pilot.qc",
+              "sha256": "1bd4bf39d1f7492d11b36ec7c2efa52f61bf2f6746eae674a02bea344c0e4829"
+            },
+            {
+              "path": "src/sigf.qc",
+              "sha256": "21f3ac75e01848b5f29770f4588badf65cfd722ea0e69c4d3e37a0f774efcae2"
+            },
+            {
+              "path": "src/soldier.qc",
+              "sha256": "6d9efb5caf0a04621e3c2b4cbeeb5984f8494055f8d50c8dcc9cd960c0342180"
+            },
+            {
+              "path": "src/sprites.qc",
+              "sha256": "b2555c75ab17a4642dfb4104c70f7c878251bd3c0cb14119dca05839a7fb4480"
+            },
+            {
+              "path": "src/subs.qc",
+              "sha256": "ff5b06f396a61a95845f109937316b9a9dee2dd34f9403754127bfa9f6a3e7d2"
+            },
+            {
+              "path": "src/tarbaby.qc",
+              "sha256": "508c1fbf109d83ab974e3224b1d588fd5dcdd046290bbcaf708f5f7a3db9717b"
+            },
+            {
+              "path": "src/triggers.qc",
+              "sha256": "f9a38aa8ffb68bd3a6c942528088d9a467101de3469b2e78e14d682a162d0af0"
+            },
+            {
+              "path": "src/weapons.qc",
+              "sha256": "fd60c17e479efe7f43ae318335ce9e50cf79a4e9c0e0c37e294b5f3db13afc69"
+            },
+            {
+              "path": "src/wizard.qc",
+              "sha256": "59e4a885d741b4cb8161abea35892e143139ae6c2880b70db008118e29b29570"
+            },
+            {
+              "path": "src/world.qc",
+              "sha256": "1d435f1acaf885d9c57afa247cbb8ca6df1390ed2655d31ce2d82d3feb78b81f"
+            },
+            {
+              "path": "src/zombie.qc",
+              "sha256": "5b4dadcf061fab12fea0a70e25572997f6fff9644d54ee934ccc4fd44c30b86f"
+            }
+          ],
+          "url": "https://github.com/SIGFAI/quake-lethal-company-takeover/releases/download/v1.0.0/quake-lethal-company-takeover.zip",
+          "sha256": "0012d15e8bc5ebfed2153efd5722ebad3c197ea2045aa419bb775c1a0227ea17",
+          "size": 630667
+        }
+      ]
+    }
+  ],
+  "launch": [
+    {
+      "game": "quake",
+      "args": [
+        "-game",
+        "sigf_lethal_company_takeover"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "name": "quake-lethal-company-takeover.zip",
+      "url": "https://github.com/SIGFAI/quake-lethal-company-takeover/releases/download/v1.0.0/quake-lethal-company-takeover.zip",
+      "sha256": "0012d15e8bc5ebfed2153efd5722ebad3c197ea2045aa419bb775c1a0227ea17",
+      "size": 630667
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/SIGFAI/quake-lethal-company-takeover",
+    "license": "MIT"
+  },
+  "media": {},
+  "built_by": {
+    "agent": "SIGF",
+    "model": "claude-opus-5.5"
+  },
+  "idea_by": "team",
+  "kit": {
+    "id": "quake",
+    "status": "draft"
+  },
+  "built_at": "2026-10-05T15:24:39.074Z",
+  "notes": [
+    "Copy this mod folder into your Quake folder next to id1 (LibreQuake or Quake data needed), then launch Quake with -game followed by the folder name. Kill monsters, grab the scrap, meet the quota."
+  ]
+}
