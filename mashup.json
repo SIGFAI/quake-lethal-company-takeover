@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "name": "Lethal Company Takeover",
   "tagline": "Bring Lethal Company into the game in the most visible and funny way. The change shows in the first 30 seconds of play.",
+  "how_to_play": [
+    "Kill monsters in the dark, foggy facility and grab the scrap they leave to meet the Company's quota.",
+    "Hoarding Bugs steal scrap from the floor, so kill them to get it back; watch out for the Brackens.",
+    "Meeting a quota sounds the Company horn, gives you Quad Damage and sets a bigger quota.",
+    "Open the console and type: map start"
+  ],
   "kind": "mashup",
   "games": [
     {
@@ -266,8 +272,5 @@
     "id": "quake",
     "status": "draft"
   },
-  "built_at": "2026-10-05T15:24:39.074Z",
-  "notes": [
-    "Copy this mod folder into your Quake folder next to id1 (LibreQuake or Quake data needed), then launch Quake with -game followed by the folder name. Kill monsters, grab the scrap, meet the quota."
-  ]
+  "built_at": "2026-10-05T15:24:39.074Z"
 }
